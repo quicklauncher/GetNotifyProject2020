@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hareesa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#000"
+                android:text="Display of Product:"
+
+                android:textStyle="bold"
+                android:id="@+id/a1"
+                android:textSize="19dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:id="@+id/image"
+                android:layout_below="@id/a1"
+                android:layout_centerInParent="true"
+                />
+
+
+            <TextView
+                android:id="@+id/textt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:text="@string/a1"
+                android:textColor="#000"
+                android:textSize="17dp"
+
+                />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textt"
+                android:text="Size: 33,34,36,38,40"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:text="Colors: Red,Pink,Black"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+            <Button
+
+                android:id="@+id/idbtn"
+                android:layout_below="@id/t3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Order Now"
+                android:background="@drawable/gr"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

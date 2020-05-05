@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117092806053",
+    "firebase_url": "https://procook-62704.firebaseio.com",
+    "project_id": "procook-62704",
+    "storage_bucket": "procook-62704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117092806053:android:37f53da6cf7d9a6f",
+        "android_client_info": {
+          "package_name": "com.cook.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117092806053-c44cqc2481sercu2vpa70peitipdbcjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cook.pro",
+            "certificate_hash": "4644deca1902134b6ad15db234acabf87ea0cd8c"
+          }
+        },
+        {
+          "client_id": "117092806053-8570gogpjoik7spk6un3725s914sm0qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCdm6DaedbST9d0ZrhOtpk1_TNOkkJL2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117092806053-8570gogpjoik7spk6un3725s914sm0qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

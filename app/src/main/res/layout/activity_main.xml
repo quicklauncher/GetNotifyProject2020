@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_marginBottom="0dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:background="@drawable/gr"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mainico"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginTop="-40dp"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="140dp"
+                        android:weightSum="2"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/lnr1"
+                        android:layout_marginTop="50dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginRight="10dp"
+
+                                android:onClick="pakk"
+
+
+
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/d1"
+                                    android:id="@+id/one"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/one"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dresses"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:onClick="indd"
+
+
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/jew"
+                                    android:id="@+id/two"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/two"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="jewellery"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="140dp"
+                        android:weightSum="2"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/lnr2"
+                        android:layout_below="@+id/lnr1"
+                        android:layout_marginTop="20dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginRight="10dp"
+
+                                android:onClick="arabicc"
+
+
+
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/shoess"
+                                    android:id="@+id/three"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/three"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shoes"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:onClick="turkishh"
+
+
+
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/mkup"
+                                    android:id="@+id/four"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/four"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Makeup"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="140dp"
+                        android:weightSum="2"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/lnr3"
+                        android:layout_below="@+id/lnr2"
+                        android:layout_marginTop="20dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginRight="10dp"
+
+                                android:onClick="chinese"
+
+
+
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/tsrt"
+
+                                    android:id="@+id/five"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/five"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="T-Shirts"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            >
+                            <RelativeLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:onClick="otherss"
+                                
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/glass"
+                                    android:id="@+id/six"
+                                    />
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@id/six"
+                                    android:background="@drawable/gr"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Glasses"
+                                        android:textSize="18dp"
+                                        android:textColor="#ffff"
+                                        android:textAlignment="center"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center_horizontal" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
